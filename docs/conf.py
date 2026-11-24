@@ -58,10 +58,10 @@ author = "Nidhal Baccouri"
 # the built documents.
 #
 # The short X.Y version.
-import toml
+import tomllib
 
 with open("../pyproject.toml", "r") as f:
-    tom = toml.load(f)
+    tom = tomllib.load(f)
 version = tom["tool"]["poetry"]["version"]
 # The full version, including alpha/beta/rc tags.
 # release = deep_translator.__version__
