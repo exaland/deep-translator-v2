@@ -1,0 +1,1040 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Nidhal Baccouri
+# This file is distributed under the same license as the deep_translator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: deep_translator 1.11.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 21:24+0100\n"
+"PO-Revision-Date: 2026-11-24 21:35+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.10\n"
+
+#: ../../README.rst:3
+msgid "deep-translator-v2"
+msgstr "traducteur profond-v2"
+
+#: ../../README.rst:5
+msgid "deep-translator-icon"
+msgstr "icon-traducteur profond"
+
+#: ../../README.rst:17
+msgid "Documentation Status"
+msgstr "État de la documentation"
+
+#: ../../README.rst:36
+msgid "Twitter URL"
+msgstr "URL Twitter"
+
+#: ../../README.rst:43
+msgid "Translation for humans"
+msgstr "Traduction pour les humains"
+
+#: ../../README.rst:45
+msgid ""
+"A flexible **FREE** and **UNLIMITED** tool to translate between different "
+"languages in a simple way using multiple translators."
+msgstr ""
+"Un outil flexible **FREE** et **UNLIMITED** pour traduire entre différentes "
+"langues d'une manière simple en utilisant plusieurs traducteurs."
+
+#: ../../README.rst:47
+msgid ""
+"Exaland Concept maintains this fork of `deep-translator <https://github.com/"
+"nidhaloff/deep-translator>`_, originally created by Nidhal Baccouri and "
+"maintained upstream by Nidhal Baccouri and Chris Trenthem."
+msgstr ""
+"Exaland Concept maintient cette fourche de \"deep-traducteur\" <https://"
+"github.com/nidhaloff/deep-traducteur>` , initialement créée par Nidhal "
+"Baccouri et maintenue en amont par Nidhal Baccouri et Chris Trenthem."
+
+#: ../../README.rst:49
+msgid "Free software: Apache License 2.0"
+msgstr "Logiciel gratuit : Apache License 2.0"
+
+#: ../../README.rst:50
+msgid "Documentation: https://deep-translator.readthedocs.io."
+msgstr "Documentation: https://deep-traducteur.readthedocs.io."
+
+#: ../../README.rst:51
+msgid "Swagger API: https://deep-translator-api.azurewebsites.net/docs."
+msgstr "API Swagger: https://deep-traducteur-api.azurewebsites.net/docs."
+
+#: ../../README.rst:57
+msgid "Table of Contents"
+msgstr "Sommaire"
+
+#: ../../README.rst:65
+msgid "Motivation"
+msgstr "Motivation"
+
+#: ../../README.rst:67
+msgid ""
+"I needed to translate a text using python. It was hard to find a simple way "
+"to do it. There are other libraries that can be used for this task, but most "
+"of them are **buggy, not free, limited, not supported anymore or complex to "
+"use.**"
+msgstr ""
+"J'avais besoin de traduire un texte en python. C'était difficile de trouver "
+"un moyen simple de le faire. Il y a d'autres bibliothèques qui peuvent être "
+"utilisées pour cette tâche, mais la plupart d'entre elles sont **buggy, pas "
+"libre, limité, pas supporté plus ou complexe à utiliser.**"
+
+#: ../../README.rst:71
+msgid ""
+"Therefore, I decided to build this simple tool. It is 100% free, unlimited, "
+"easy to use and provides support for all languages."
+msgstr ""
+"Par conséquent, j'ai décidé de construire cet outil simple. Il est 100% "
+"gratuit, illimité, facile à utiliser et fournit un support pour toutes les "
+"langues."
+
+#: ../../README.rst:74
+msgid ""
+"Basically, my goal was to integrate support for multiple famous translators "
+"in this tool."
+msgstr ""
+"Fondamentalement, mon objectif était d'intégrer le soutien de plusieurs "
+"traducteurs célèbres dans cet outil."
+
+#: ../../README.rst:79
+msgid "When you should use it"
+msgstr "Quand l'utiliser"
+
+#: ../../README.rst:81
+msgid "If you want to translate text using python"
+msgstr "Si vous voulez traduire du texte en utilisant python"
+
+#: ../../README.rst:82
+msgid "If you want to translate from a file"
+msgstr "Si vous voulez traduire à partir d'un fichier"
+
+#: ../../README.rst:83
+msgid "If you want to get translations from many sources and not only one"
+msgstr ""
+"Si vous voulez obtenir des traductions de nombreuses sources et pas "
+"seulement une"
+
+#: ../../README.rst:84
+msgid "If you want to automate translations"
+msgstr "Si vous voulez automatiser les traductions"
+
+#: ../../README.rst:85
+msgid "If you want to use ChatGpt for translations"
+msgstr "Si vous voulez utiliser ChatGpt pour les traductions"
+
+#: ../../README.rst:86
+msgid "If you want to compare different translations"
+msgstr "Si vous voulez comparer différentes traductions"
+
+#: ../../README.rst:87
+msgid "If you want to detect language automatically"
+msgstr "Si vous voulez détecter la langue automatiquement"
+
+#: ../../README.rst:91
+msgid "Why you should use it"
+msgstr "Pourquoi vous devriez l'utiliser"
+
+#: ../../README.rst:93
+msgid "It's the only python tool that integrates many translators"
+msgstr "C'est le seul outil python qui intègre de nombreux traducteurs"
+
+#: ../../README.rst:94
+msgid "Multi language support"
+msgstr "Support multilingue"
+
+#: ../../README.rst:95
+msgid "Support for ChatGpt (version >= 1.11.0)"
+msgstr "Support pour ChatGpt (version >= 1.11.0)"
+
+#: ../../README.rst:96
+msgid "Supports batch translation"
+msgstr "Prend en charge la traduction par lots"
+
+#: ../../README.rst:97
+msgid "High level of abstraction"
+msgstr "Niveau élevé d'abstraction"
+
+#: ../../README.rst:98
+msgid "Automatic language detection"
+msgstr "Détection automatique du langage"
+
+#: ../../README.rst:99
+msgid "Easy to use and extend"
+msgstr "Facile à utiliser et à étendre"
+
+#: ../../README.rst:100
+msgid "Support for most famous universal translators"
+msgstr "Support pour les traducteurs universels les plus célèbres"
+
+#: ../../README.rst:101
+msgid "Stable and maintained regularly"
+msgstr "Stable et entretenu régulièrement"
+
+#: ../../README.rst:102
+msgid "The API is very easy to use"
+msgstr "L'API est très facile à utiliser"
+
+#: ../../README.rst:103
+msgid "Proxy integration is supported"
+msgstr "L'intégration proxy est prise en charge"
+
+#: ../../README.rst:107
+msgid "Features"
+msgstr "Caractéristiques"
+
+#: ../../README.rst:109
+msgid "Support for `google translate <https://translate.google.com/>`_"
+msgstr "Prise en charge de `google traduire <https://translate.google.com/>` "
+
+#: ../../README.rst:110
+msgid ""
+"Support for the `microsoft translator <https://www.microsoft.com/en-us/"
+"translator//>`_ (version >= 1.3.5)"
+msgstr ""
+"Appui au traducteur <https://www.microsoft.com/en-us/traducteur/>`  (version "
+">= 1.3.5)"
+
+#: ../../README.rst:111
+msgid "Support for `Pons translator <https://de.pons.com/>`_"
+msgstr "Support pour le traducteur `Pons <https://de.pons.com/>` "
+
+#: ../../README.rst:112
+msgid "Support for the `Linguee translator <https://www.linguee.com/>`_"
+msgstr "Appui au traducteur \"Linguee\" <https://www.linguee.com/>` "
+
+#: ../../README.rst:113
+msgid ""
+"Support for the `Mymemory translator <https://mymemory.translated.net/>`_"
+msgstr "Soutien au traducteur `Mymemory <https://mymemory.translate.net/>` "
+
+#: ../../README.rst:114
+msgid ""
+"Support for the `Yandex translator <https://yandex.com/>`_ (version >= 1.2.1)"
+msgstr ""
+"Support du traducteur `Yandex <https://yandex.com/>`  (version >= 1.2.1)"
+
+#: ../../README.rst:115
+msgid ""
+"Support for the `QcriTranslator translator <https://mt.qcri.org/api/>`_ "
+"(version >= 1.2.4)"
+msgstr "Appui au traducteur <https://mt.qcri.org/api/>`  (version >= 1.2.4)"
+
+#: ../../README.rst:116
+msgid ""
+"Support for the `DeeplTranslator translator <https://www.deepl.com/en/"
+"translator/>`_ (version >= 1.2.5)"
+msgstr ""
+"Appui au traducteur DeeplTraducteur <https://www.deepl.com/en/traducteur/>`  "
+"(version >= 1.2.5)"
+
+#: ../../README.rst:117
+msgid ""
+"Support for the `Papago translator <https://papago.naver.com/>`_ (version >= "
+"1.4.4)"
+msgstr ""
+"Appui au traducteur \"Papago\" <https://papago.naver.com/>`  (version >= "
+"1.4.4)"
+
+#: ../../README.rst:118
+msgid "Support for the `Libre translator <https://libretranslate.com/>`_"
+msgstr "Support du traducteur `Libre <https://libretranslate.com/>` "
+
+#: ../../README.rst:119
+msgid "Support for ChatGpt"
+msgstr "Support pour ChatGpt"
+
+#: ../../README.rst:120
+msgid "Support for proxy usage"
+msgstr "Support pour l'utilisation de proxy"
+
+#: ../../README.rst:121
+msgid "Automatic single language detection"
+msgstr "Détection automatique d'un langage unique"
+
+#: ../../README.rst:122
+msgid "Batch language detection"
+msgstr "Détection du langage par lots"
+
+#: ../../README.rst:123
+msgid "Translate directly from a text file"
+msgstr "Traduire directement à partir d'un fichier texte"
+
+#: ../../README.rst:124
+msgid "Translate docx files (version >= 1.9.4)"
+msgstr "Traduire les fichiers docx (version >= 1.9.4)"
+
+#: ../../README.rst:125
+msgid "Translate PDF files (version >= 1.9.4)"
+msgstr "Traduire les fichiers PDF (version >= 1.9.4)"
+
+#: ../../README.rst:126
+msgid "Get multiple translation for a word"
+msgstr "Obtenez plusieurs traductions pour un mot"
+
+#: ../../README.rst:127
+msgid "Automate the translation of different paragraphs in different languages"
+msgstr ""
+"Automatiser la traduction de différents paragraphes en différentes langues"
+
+#: ../../README.rst:128
+msgid "Translate directly from terminal (version >= 1.1.0)"
+msgstr "Traduire directement depuis le terminal (version >= 1.1.0)"
+
+#: ../../README.rst:132
+msgid "Installation"
+msgstr "Installation"
+
+#: ../../README.rst:134
+msgid "Install the stable release:"
+msgstr "Installez la version stable :"
+
+#: ../../README.rst:142
+msgid "take a look at the docs if you want to install from source."
+msgstr ""
+"jetez un oeil aux documents si vous voulez installer à partir de source."
+
+#: ../../README.rst:144
+msgid ""
+"Also, you can install extras if you want support for specific use case. For "
+"example, translating Docx and PDF files"
+msgstr ""
+"En outre, vous pouvez installer des extras si vous voulez un support pour un "
+"cas d'utilisation spécifique. Par exemple, traduire des fichiers Docx et PDF"
+
+#: ../../README.rst:156
+msgid "Quick Start"
+msgstr "Démarrer rapidement"
+
+#: ../../README.rst:165
+msgid "or using proxies:"
+msgstr "ou en utilisant des proxies:"
+
+#: ../../README.rst:178
+msgid "or even directly from terminal:"
+msgstr "ou même directement depuis le terminal:"
+
+#: ../../README.rst:191
+msgid "Usage"
+msgstr "Utilisation"
+
+#: ../../README.rst:193
+msgid ""
+"In this section, demos on how to use all different integrated translators in "
+"this tool are provided."
+msgstr ""
+"Dans cette section, des démonstrations sur la façon d'utiliser tous les "
+"différents traducteurs intégrés dans cet outil sont fournies."
+
+#: ../../README.rst:197
+msgid "You can always pass the languages by the name or by abbreviation."
+msgstr "Vous pouvez toujours passer les langues par le nom ou par abréviation."
+
+#: ../../README.rst:199
+msgid ""
+"*Example*: If you want to use english as a source or target language, you "
+"can pass **english** or **en** as an argument"
+msgstr ""
+"*Exemple*: Si vous voulez utiliser l'anglais comme langue source ou cible, "
+"vous pouvez passer **francais** ou **fr** comme argument"
+
+#: ../../README.rst:203
+msgid ""
+"For all translators that require an ApiKey, you can either specify it as an "
+"argument to the translator class or you can export it as an environment "
+"variable, this way you won't have to provide it to the class."
+msgstr ""
+"Pour tous les traducteurs qui nécessitent une ApiKey, vous pouvez soit le "
+"spécifier comme argument à la classe traducteur, soit l'exporter comme "
+"variable d'environnement, de cette façon vous n'aurez pas à le fournir à la "
+"classe."
+
+#: ../../README.rst:206
+msgid "*Example*: export OPENAI_API_KEY=\"your_key\""
+msgstr "*Exemple*: exporter OPENAI API KEY \"votre clé\""
+
+#: ../../README.rst:209
+msgid "Imports"
+msgstr "Importations"
+
+#: ../../README.rst:228
+msgid "Check Supported Languages"
+msgstr "Vérifier les langues prises en charge"
+
+#: ../../README.rst:232
+msgid ""
+"You can check the supported languages of each translator by calling the "
+"get_supported_languages function."
+msgstr ""
+"Vous pouvez vérifier les langues prises en charge de chaque traducteur en "
+"appelant la fonction get supported languages."
+
+#: ../../README.rst:244
+msgid "Language Detection"
+msgstr "Détection de langue"
+
+#: ../../README.rst:248
+msgid ""
+"You can also detect language automatically. Notice that this package is free "
+"and my goal is to keep it free. Therefore, you will need to get your own "
+"api_key if you want to use the language detection function. I figured out "
+"you can get one for free here: https://detectlanguage.com/documentation"
+msgstr ""
+"Vous pouvez également détecter la langue automatiquement. Notez que ce "
+"paquet est gratuit et mon but est de le garder libre. Par conséquent, vous "
+"devrez obtenir votre propre api key si vous voulez utiliser la fonction de "
+"détection de langue. J'ai compris que vous pouvez en obtenir un gratuitement "
+"ici: https://detectlanguage.com/documentation"
+
+#: ../../README.rst:252
+msgid "Single Text Detection"
+msgstr "Détection de texte unique"
+
+#: ../../README.rst:259
+msgid "Batch Detection"
+msgstr "Détection par lots"
+
+#: ../../README.rst:269
+msgid "Google Translate"
+msgstr "Google Translate"
+
+#: ../../README.rst:275
+msgid "You can use automatic language detection to detect the source language:"
+msgstr ""
+"Vous pouvez utiliser la détection automatique du langage pour détecter le "
+"langage source:"
+
+#: ../../README.rst:281 ../../README.rst:553 ../../README.rst:647
+msgid "You can pass languages by name or by abbreviation:"
+msgstr "Vous pouvez passer des langues par nom ou par abréviation :"
+
+#: ../../README.rst:290
+msgid ""
+"You can also reuse the Translator class and change/update its properties."
+msgstr ""
+"Vous pouvez également réutiliser la classe Traducteur et modifier/actualiser "
+"ses propriétés."
+
+#: ../../README.rst:292
+msgid ""
+"(Notice that this is important for performance too, since instantiating new "
+"objects is expensive)"
+msgstr ""
+"(Noter que cela est important pour la performance aussi, car l'instantannage "
+"de nouveaux objets est coûteux)"
+
+#: ../../README.rst:315 ../../README.rst:349 ../../README.rst:388
+#: ../../README.rst:562 ../../README.rst:604 ../../README.rst:657
+#: ../../README.rst:687 ../../README.rst:717
+msgid "Translate batch of texts"
+msgstr "Traduire le lot de textes"
+
+#: ../../README.rst:324 ../../README.rst:358 ../../README.rst:767
+msgid "Translate text from txt/docx/pdf:"
+msgstr "Traduire le texte de txt/docx/pdf:"
+
+#: ../../README.rst:333
+msgid "Mymemory Translator"
+msgstr "Mymemory Traducteur"
+
+#: ../../README.rst:337
+msgid ""
+"As in google translate, you can use the automatic language detection with "
+"mymemory by using \"auto\" as an argument for the source language. However, "
+"this feature in the mymemory translator is not so powerful as in google "
+"translate."
+msgstr ""
+"Comme dans Google Translate, vous pouvez utiliser la détection automatique "
+"du langage avec mymemory en utilisant \"auto\" comme argument pour le "
+"langage source. Cependant, cette fonctionnalité dans le traducteur mymémory "
+"n'est pas si puissante que dans google traduire."
+
+#: ../../README.rst:341 ../../README.rst:376 ../../README.rst:680
+#: ../../README.rst:710
+msgid "Simple translation"
+msgstr "Traduction simple"
+
+#: ../../README.rst:368
+msgid "DeeplTranslator"
+msgstr "Traducteur de profondeur"
+
+#: ../../README.rst:372
+msgid ""
+"In order to use the DeeplTranslator translator, you need to generate an api "
+"key. Deepl offers a Pro and a free API. deep-translator supports both Pro "
+"and free APIs. Just check the examples below. Visit https://www.deepl.com/en/"
+"docs-api/ for more information on how to generate your Deepl api key"
+msgstr ""
+"Pour utiliser le traducteur DeeplTranslator, vous devez générer une clé api. "
+"Deepl offre un Pro et une API gratuite. profonde-traducteur prend en charge "
+"à la fois les API Pro et libres. Il suffit de vérifier les exemples ci-"
+"dessous. Visitez https://www.deepl.com/fr/docs-api/ pour plus d'informations "
+"sur la façon de générer votre clé Deepl api"
+
+#: ../../README.rst:385
+msgid ""
+"deep-translator uses free deepl api by default. If you have the pro version "
+"then simply set the use_free_api to false."
+msgstr ""
+"deep-traducteur utilise free deepl api par défaut. Si vous avez la version "
+"pro, il suffit de définir use free api à false."
+
+#: ../../README.rst:398
+msgid "QcriTranslator"
+msgstr "QcriTraducteur"
+
+#: ../../README.rst:402
+msgid ""
+"In order to use the QcriTranslator translator, you need to generate a free "
+"api key. Visit https://mt.qcri.org/api/ for more information"
+msgstr ""
+"Pour utiliser le traducteur QcriTranslator, vous devez générer une clé api "
+"gratuite. Visitez https://mt.qcri.org/api/ pour plus d'informations"
+
+#: ../../README.rst:405
+msgid "Check languages"
+msgstr "Vérifier les langues"
+
+#: ../../README.rst:412
+msgid "Check domains"
+msgstr "Vérifier les domaines"
+
+#: ../../README.rst:419 ../../README.rst:505
+msgid "Text translation"
+msgstr "Traduction textuelle"
+
+#: ../../README.rst:431
+msgid "Linguee Translator"
+msgstr "Traducteur Linguee"
+
+#: ../../README.rst:437 ../../README.rst:468
+msgid "Simple Translation"
+msgstr "Traduction simple"
+
+#: ../../README.rst:443 ../../README.rst:477
+msgid "Return all synonyms or words that match"
+msgstr "Retourner tous les synonymes ou mots qui correspondent"
+
+#: ../../README.rst:450 ../../README.rst:484
+msgid "Translate a batch of words"
+msgstr "Traduire un lot de mots"
+
+#: ../../README.rst:457
+msgid "PONS Translator"
+msgstr "PONS Traducteur"
+
+#: ../../README.rst:461
+msgid ""
+"You can pass the languages by the name or by abbreviation just like previous "
+"examples using GoogleTranslate"
+msgstr ""
+"Vous pouvez passer les langues par le nom ou par abréviation tout comme les "
+"exemples précédents en utilisant GoogleTranslate"
+
+#: ../../README.rst:491
+msgid "Yandex Translator"
+msgstr "Traducteur Yandex"
+
+#: ../../README.rst:495
+msgid ""
+"You need to require a **private api key** if you want to use the yandex "
+"translator. Visit the official website for more information about how to get "
+"one"
+msgstr ""
+"Si vous voulez utiliser le traducteur yandex, vous devez avoir besoin d'une "
+"clé api privée **. Visitez le site officiel pour plus d'informations sur la "
+"façon d'en obtenir un"
+
+#: ../../README.rst:498
+msgid "Language detection"
+msgstr "Détection des langues"
+
+#: ../../README.rst:517
+msgid "File translation"
+msgstr "Traduction de fichier"
+
+#: ../../README.rst:523
+msgid "Batch translation"
+msgstr "Traduction par lots"
+
+#: ../../README.rst:531
+msgid "Microsoft Translator"
+msgstr "Traducteur Microsoft"
+
+#: ../../README.rst:535
+msgid ""
+"You need to require an **api key** if you want to use the microsoft "
+"translator. Visit the official website for more information about how to get "
+"one. Microsoft offers a free tier 0 subscription (2 million characters per "
+"month)."
+msgstr ""
+"Vous devez avoir besoin d'une touche **api** si vous voulez utiliser le "
+"traducteur microsoft. Visitez le site officiel pour plus d'informations sur "
+"la façon d'en obtenir un. Microsoft offre un abonnement gratuit de niveau 0 "
+"(2 millions de caractères par mois)."
+
+#: ../../README.rst:539 ../../README.rst:591
+msgid "Required and optional attributes"
+msgstr "Attributs obligatoires et optionnels"
+
+#: ../../README.rst:541
+msgid ""
+"There are two required attributes, namely \"api_key\" (string) and "
+"\"target\" (string or list). Attribute \"source\" is optional. Also, "
+"Microsoft API accepts a number of other optional attributes, you can find "
+"them here:  https://docs.microsoft.com/azure/cognitive-services/translator/"
+"reference/v3-0-translate You can simply add them after the required "
+"attributes, see the example."
+msgstr ""
+"Il y a deux attributs requis, à savoir \"api key\" (chaîne) et \"cible\" "
+"(chaîne ou liste). L'attribut « source » est facultatif. En outre, Microsoft "
+"API accepte un certain nombre d'autres attributs optionnels, vous pouvez les "
+"trouver ici: https://docs.microsoft.com/azure/cognitive-services/traducteur/"
+"reference/v3-0-translate Vous pouvez simplement les ajouter après les "
+"attributs requis, voir l'exemple."
+
+#: ../../README.rst:569 ../../README.rst:611 ../../README.rst:664
+#: ../../README.rst:694 ../../README.rst:724
+msgid "Translate from a file:"
+msgstr "Traduire depuis un fichier :"
+
+#: ../../README.rst:576
+msgid "ChatGpt Translator"
+msgstr "Traducteur ChatGpt"
+
+#: ../../README.rst:580
+msgid ""
+"ChatGptTranslator is included in the standard installation. It defaults to "
+"``gpt-6-luna``. Pass ``model`` to select another OpenAI model that supports "
+"Chat Completions."
+msgstr ""
+"ChatGptTraducteur est inclus dans l'installation standard. Il est par défaut "
+"``gpt-6-luna``. Passez ``model`` pour sélectionner un autre modèle OpenAI "
+"qui supporte les Finalisations de Chat."
+
+#: ../../README.rst:586
+msgid ""
+"You need to require an **api key** if you want to use the ChatGpt "
+"translator. If you have an openai account, you can create an api key "
+"(https://platform.openai.com/account/api-keys)."
+msgstr ""
+"Vous devez avoir besoin d'une touche **api** si vous voulez utiliser le "
+"traducteur ChatGpt. Si vous avez un compte openai, vous pouvez créer une clé "
+"api (https://platform.openai.com/account/api-keys)."
+
+#: ../../README.rst:593
+msgid ""
+"There are two required attributes, namely \"api_key\" (string) and "
+"\"target\" (string or list). Attribute \"source\" is optional."
+msgstr ""
+"Il y a deux attributs requis, à savoir \"api key\" (chaîne) et \"cible\" "
+"(chaîne ou liste). L'attribut « source » est facultatif."
+
+#: ../../README.rst:596
+msgid ""
+"You can provide your api key as an argument or you can export it as an env "
+"var e.g. `export OPENAI_API_KEY=\"your_key\"`"
+msgstr ""
+"Vous pouvez fournir votre clé api en argument ou l'exporter en tant qu'env "
+"var par exemple `export OPENAI API KEY=\"votre key\"`"
+
+#: ../../README.rst:619
+msgid "Papago Translator"
+msgstr "Papago Traducteur"
+
+#: ../../README.rst:623
+msgid ""
+"You need to require a **client id** and **client secret key** if you want to "
+"use the papago translator. Visit the official website for more information "
+"about how to get one."
+msgstr ""
+"Vous devez avoir besoin d'un **client id** et **client clé secrète** si vous "
+"voulez utiliser le traducteur papago. Visitez le site officiel pour plus "
+"d'informations sur la façon d'en obtenir un."
+
+#: ../../README.rst:633
+msgid "Libre Translator"
+msgstr "Libre traducteur"
+
+#: ../../README.rst:637
+msgid ""
+"Libre translate has multiple  `mirrors <https://github.com/LibreTranslate/"
+"LibreTranslate#mirrors>`_ which can be used for the API endpoint. Some "
+"require an API key to be used. By default the base url is set to "
+"`libretranslate.de <https://libretranslate.de/>`_ . This can be set using "
+"the \"base_url\" input parameter."
+msgstr ""
+"Libre traduire a plusieurs `mirrors <https://github.com/LibreTraduit par la "
+"Rédaction qui peut être utilisé pour le paramètre API. Certains nécessitent "
+"une clé API à utiliser. Par défaut, l'url de base est défini à "
+"`libretranslate.de <https://libretranslate.de/>`  . Ceci peut être défini en "
+"utilisant le paramètre d'entrée \"base url\"."
+
+#: ../../README.rst:671
+msgid "TencentTranslator"
+msgstr "TencentTraducteur"
+
+#: ../../README.rst:675
+msgid ""
+"In order to use the TencentTranslator translator, you need to generate a "
+"secret_id and a secret_key. deep-translator supports both Pro and free APIs. "
+"Just check the examples below. Visit https://cloud.tencent.com/document/api/"
+"551/15619 for more information on how to generate your Tencent secret_id and "
+"secret_key."
+msgstr ""
+"Pour utiliser le traducteur TencentTranslator, vous devez générer un secret "
+"id et un secret key. profonde-traducteur prend en charge à la fois les API "
+"Pro et libres. Il suffit de vérifier les exemples ci-dessous. Visitez "
+"https://cloud.tencent.com/document/api/551/15619 pour plus d'informations "
+"sur la façon de générer votre Tencent secret id et secret key."
+
+#: ../../README.rst:701
+msgid "BaiduTranslator"
+msgstr "BaiduTraducteur"
+
+#: ../../README.rst:705
+msgid ""
+"In order to use the BaiduTranslator translator, you need to generate a "
+"secret_id and a secret_key. deep-translator supports both Pro and free APIs. "
+"Just check the examples below. Visit http://api.fanyi.baidu.com/product/113 "
+"for more information on how to generate your Baidu appid and appkey."
+msgstr ""
+"Pour utiliser le traducteur BaiduTranslator, vous devez générer un secret id "
+"et un secret key. profonde-traducteur prend en charge à la fois les API Pro "
+"et libres. Il suffit de vérifier les exemples ci-dessous. Consultez http://"
+"api.fanyi.baidu.com/product/113 pour plus d'informations sur la façon de "
+"générer votre appid et appkey Baidu."
+
+#: ../../README.rst:731
+msgid "Proxy usage"
+msgstr "Utilisation par procuration"
+
+#: ../../README.rst:733
+msgid ""
+"deep-translator provides out of the box usage of proxies. Just define your "
+"proxies config as a dictionary and pass it to the corresponding translator. "
+"Below is an example using the GoogleTranslator, but this feature can be used "
+"with all supported translators."
+msgstr ""
+"traducteur profond fournit de l'utilisation de la boîte de proxies. Il "
+"suffit de définir votre config proxies comme un dictionnaire et de le "
+"transmettre au traducteur correspondant. Ci-dessous est un exemple utilisant "
+"le GoogleTraducteur, mais cette fonctionnalité peut être utilisée avec tous "
+"les traducteurs pris en charge."
+
+#: ../../README.rst:750
+msgid "File Translation"
+msgstr "Traduction de fichiers"
+
+#: ../../README.rst:752
+msgid ""
+"Deep-translator (version >= 1.9.4) supports not only text file translation, "
+"but docx and PDF files too. However, you need to install deep-translator-v2 "
+"using the specific extras."
+msgstr ""
+"Deep-traducteur (version >= 1.9.4) prend en charge non seulement la "
+"traduction de fichiers texte, mais aussi les fichiers docx et PDF. "
+"Cependant, vous devez installer deep-translator-v2 en utilisant les extras "
+"spécifiques."
+
+#: ../../README.rst:755
+msgid "For docx translation:"
+msgstr "Pour traduction docx :"
+
+#: ../../README.rst:761
+msgid "For PDF translation:"
+msgstr "Pour la traduction PDF:"
+
+#: ../../README.rst:769
+msgid "Here is sample code for translating text directly from files"
+msgstr ""
+"Voici un exemple de code pour traduire du texte directement à partir de "
+"fichiers"
+
+#: ../../README.rst:779
+msgid "Usage from Terminal"
+msgstr "Utilisation depuis le terminal"
+
+#: ../../README.rst:781
+msgid ""
+"Deep-translator supports a series of command line arguments for quick and "
+"simple access to the translators directly in your console."
+msgstr ""
+"Deep-traducteur prend en charge une série d'arguments en ligne de commande "
+"pour un accès rapide et simple aux traducteurs directement dans votre "
+"console."
+
+#: ../../README.rst:785
+msgid ""
+"The program accepts ``deep-translator`` or ``dt`` as a command, feel free to "
+"substitute whichever you prefer."
+msgstr ""
+"Le programme accepte ``deep-traducteur`` ou ``dt`` comme commande, n'hésitez "
+"pas à remplacer ce que vous préférez."
+
+#: ../../README.rst:787
+msgid "For a list of available translators:"
+msgstr "Pour une liste des traducteurs disponibles:"
+
+#: ../../README.rst:793
+msgid "To translate a string or line of text:"
+msgstr "Pour traduire une chaîne ou une ligne de texte :"
+
+#: ../../README.rst:799
+msgid "Alternate short option names, along with using language abbreviations:"
+msgstr "Autres noms d'options courtes, avec des abréviations de langue:"
+
+#: ../../README.rst:806
+msgid ""
+"Finally, to retrieve a list of available languages for a given translator:"
+msgstr ""
+"Enfin, pour obtenir une liste des langues disponibles pour un traducteur "
+"donné:"
+
+#: ../../README.rst:814
+msgid "Tests"
+msgstr "Essais"
+
+#: ../../README.rst:816
+msgid ""
+"Developers can install the development version of deep-translator and "
+"execute unit tests to verify functionality. For more information on doing "
+"this, see `the contribution guidelines <https://deep-"
+"translator.readthedocs.io/en/latest/contributing.html#get-started>`_"
+msgstr ""
+"Les développeurs peuvent installer la version de développement de la "
+"traduction profonde et exécuter des tests unitaires pour vérifier la "
+"fonctionnalité. Pour de plus amples renseignements à ce sujet, voir les "
+"lignes directrices sur les contributions <https://deep-"
+"translator.readthedocs.io/en/latest/sponsor.html#get-started>` "
+
+#: ../../README.rst:820
+msgid "Links"
+msgstr "Liens"
+
+#: ../../README.rst:821
+msgid ""
+"Check this article on medium to know why you should use the deep-translator "
+"package and how to translate text using python. https://medium.com/"
+"@nidhalbacc/how-to-translate-text-with-python-9d203139dcf5"
+msgstr ""
+"Cochez cet article sur support pour savoir pourquoi vous devriez utiliser le "
+"paquet de traduction profonde et comment traduire du texte en utilisant "
+"python. https://medium.com/@nidhalbacc/how-to-translate-text-with-"
+"python-9d203139dcf5"
+
+#: ../../README.rst:826
+msgid "Help"
+msgstr "Aide"
+
+#: ../../README.rst:828
+msgid ""
+"If you are facing any problems, please feel free to open an issue. "
+"Additionally, you can make contact with the author for further information/"
+"questions."
+msgstr ""
+"Si vous rencontrez des problèmes, n'hésitez pas à ouvrir un dossier. De "
+"plus, vous pouvez prendre contact avec l'auteur pour obtenir de plus amples "
+"renseignements/questions."
+
+#: ../../README.rst:831
+msgid ""
+"Do you like deep-translator? You can always help the development of this "
+"project by:"
+msgstr ""
+"Tu aimes les transducteurs profonds ? Vous pouvez toujours contribuer au "
+"développement de ce projet en :"
+
+#: ../../README.rst:834
+msgid "Following on github and/or twitter"
+msgstr "Suivre sur github et/ou twitter"
+
+#: ../../README.rst:835
+msgid "Promote the project (ex: by giving it a star on github)"
+msgstr "Promouvoir le projet (ex : en lui donnant une étoile sur github)"
+
+#: ../../README.rst:836
+msgid "Watch the github repo for new releases"
+msgstr "Regardez la repo github pour les nouvelles versions"
+
+#: ../../README.rst:837
+msgid "Tweet about the package"
+msgstr "Tweet sur le paquet"
+
+#: ../../README.rst:838
+msgid "Help others with issues on github"
+msgstr "Aider les autres avec les problèmes sur github"
+
+#: ../../README.rst:839
+msgid "Create issues and pull requests"
+msgstr "Créer des problèmes et tirer des requêtes"
+
+#: ../../README.rst:840
+msgid "Sponsor the project"
+msgstr "Parrainer le projet"
+
+#: ../../README.rst:844
+msgid "Next Steps"
+msgstr "Prochaines étapes"
+
+#: ../../README.rst:846
+msgid ""
+"Take a look in the examples folder for more :) Contributions are always "
+"welcome. Read the Contribution guidelines `Here <https://deep-"
+"translator.readthedocs.io/en/latest/contributing.html#get-started>`_"
+msgstr ""
+"Jetez un oeil dans le dossier des exemples pour plus de :) Les contributions "
+"sont toujours les bienvenues. Lire les lignes directrices sur la "
+"contribution `Ici <https://deep-traducteur.readthedocs.io/en/latest/"
+"sponsor.html#get-started>` "
+
+#: ../../README.rst:852
+msgid "Credits"
+msgstr "Crédits"
+
+#: ../../README.rst:854
+msgid ""
+"Many thanks to @KirillSklyarenko for his work on integrating the microsoft "
+"translator"
+msgstr ""
+"Merci beaucoup à @KirillSklyarenko pour son travail sur l'intégration du "
+"traducteur microsoft"
+
+#: ../../README.rst:858
+msgid "License"
+msgstr "Licence"
+
+#: ../../README.rst:860
+msgid "Apache License 2.0"
+msgstr "Licence Apache 2.0"
+
+#: ../../README.rst:862
+msgid "Copyright (c) 2020-present, Nidhal Baccouri"
+msgstr "Droit d'auteur (c) Depuis 2020, Nidhal Baccouri"
+
+#: ../../README.rst:866
+msgid "Swagger UI"
+msgstr "L'interface utilisateur Swagger"
+
+#: ../../README.rst:868
+msgid ""
+"deep-translator offers an api server for easy integration with other "
+"applications. Non python applications can communicate with the api directly "
+"and leverage the features of deep-translator"
+msgstr ""
+"deep-traducteur offre un serveur api pour une intégration facile avec "
+"d'autres applications. Les applications non python peuvent communiquer "
+"directement avec l'api et exploiter les fonctionnalités du translatateur "
+"profond"
+
+#: ../../README.rst:871
+msgid "Access the api here: https://deep-translator-api.azurewebsites.net/docs"
+msgstr ""
+"Accédez à l'api ici: https://deep-traducteur-api.azurewebsites.net/docs"
+
+#: ../../README.rst:877
+msgid "The Translator++ mobile app"
+msgstr "L'application mobile Translator++"
+
+#: ../../README.rst:879
+msgid "Icon of the app"
+msgstr "Icône de l'application"
+
+#: ../../README.rst:883
+msgid ""
+"You can download and try the app on play store https://play.google.com/store/"
+"apps/details?id=org.translator.translator&hl=en_US&gl=US"
+msgstr ""
+"Vous pouvez télécharger et essayer l'application sur Play Store https://"
+"play.google.com/store/apps/details?id=org.traductor.translator&hl=en US&gl=US"
+
+#: ../../README.rst:885
+msgid ""
+"After developing the deep-translator, I realized how cool this would be if I "
+"can use it as an app on my mobile phone. Sure, there is google translate, "
+"pons and linguee apps etc.. but isn't it cooler to make an app where all "
+"these translators are integrated?"
+msgstr ""
+"Après avoir développé le traducteur profond, j'ai réalisé à quel point ce "
+"serait cool si je pouvais l'utiliser comme une application sur mon téléphone "
+"portable. Bien sûr, il y a google traduire, pons et linguee apps etc. mais "
+"n'est-il pas plus cool de faire une application où tous ces traducteurs sont "
+"intégrés?"
+
+#: ../../README.rst:889
+msgid ""
+"Long story short, I started working on the app. I decided to use the `kivy "
+"framework <https://kivy.org/#home/>`_ since I wanted to code in python and "
+"to develop a cross platform app. I open sourced the `Translator++ app "
+"<https://github.com/nidhaloff/deep-translator-app/>`_ on my github too. Feel "
+"free to take a look at the code or make a pull request ;)"
+msgstr ""
+"Bref, j'ai commencé à travailler sur l'application. J'ai décidé d'utiliser "
+"le framework `kivy <https://kivy.org/#home/>`  puisque je voulais coder en "
+"python et développer une application cross platform. J'ai ouvert "
+"l'application `Traducteur++ <https://github.com/nidhaloff/deep-traducteur-"
+"app/>`  sur mon github aussi. N'hésitez pas à regarder le code ou à faire "
+"une demande de tirage ;)"
+
+#: ../../README.rst:895
+msgid ""
+"The Translator++ app is based on the deep-translator package. I just built "
+"the app to prove the capabilities of the deep-translator package ;)"
+msgstr ""
+"L'application Translator++ est basée sur le paquet de translation profonde. "
+"Je viens de construire l'application pour prouver les capacités du paquet de "
+"translation profonde ;)"
+
+#: ../../README.rst:898
+msgid "I published the first release on google play store on 02-08-2020"
+msgstr "J'ai publié la première sortie sur Google Play Store le 02-08-2020"
+
+#: ../../README.rst:900
+msgid "Here are some screenshots:"
+msgstr "Voici quelques captures d'écran :"
+
+#: ../../README.rst:902
+msgid "Phone"
+msgstr "Téléphone"
+
+#: ../../README.rst:904
+msgid "screenshot1"
+msgstr "capture d'écran1"
+
+#: ../../README.rst:908
+msgid "screenshot2"
+msgstr "capture d'écran2"
+
+#: ../../README.rst:912
+msgid "spinner"
+msgstr "spinner"
+
+#: ../../README.rst:917
+msgid "Tablet:"
+msgstr "Comprimé:"
+
+#: ../../README.rst:919
+msgid "screenshot3"
+msgstr "capture d'écran3"
+
+#: ../../README.rst:926
+msgid "Website & Desktop app"
+msgstr "Application du site Web et du bureau"
+
+#: ../../README.rst:928
+msgid ""
+"Currently, there are propositions for a website and/or desktop app based on "
+"deep-translator. You can follow the issue here: https://github.com/nidhaloff/"
+"deep-translator/issues/144"
+msgstr ""
+"Actuellement, il y a des propositions pour un site Web et/ou une application "
+"de bureau basée sur un traducteur profond. Vous pouvez suivre le numéro ici: "
+"https://github.com/nidhaloff/deep-traducteur/issues/144"

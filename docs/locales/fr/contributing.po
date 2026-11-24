@@ -1,0 +1,317 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Nidhal Baccouri
+# This file is distributed under the same license as the deep_translator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: deep_translator 1.11.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 21:24+0100\n"
+"PO-Revision-Date: 2026-11-24 21:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.10\n"
+
+#: ../../contributing.rst:5
+msgid "Contributing"
+msgstr "Contribution"
+
+#: ../../contributing.rst:7
+msgid ""
+"Contributions are welcome, and they are greatly appreciated! Every little "
+"bit helps, and credit will always be given."
+msgstr ""
+"Les contributions sont les bienvenues, et elles sont grandement appréciées! "
+"Chaque petite aide, et le crédit sera toujours donné."
+
+#: ../../contributing.rst:10
+msgid "You can contribute in many ways:"
+msgstr "Vous pouvez contribuer de plusieurs façons :"
+
+#: ../../contributing.rst:13
+msgid "Types of Contributions"
+msgstr "Types de contributions"
+
+#: ../../contributing.rst:16
+msgid "Report Bugs"
+msgstr "Signaler les bogues"
+
+#: ../../contributing.rst:18
+msgid "Report bugs at https://github.com/nidhaloff/deep_translator/issues."
+msgstr ""
+"Signaler les bogues à https://github.com/nidhaloff/deep traducteur/issues."
+
+#: ../../contributing.rst:20
+msgid "If you are reporting a bug, please include:"
+msgstr "Si vous déclarez un bogue, veuillez inclure :"
+
+#: ../../contributing.rst:22
+msgid "Your operating system name and version."
+msgstr "Nom et version de votre système d'exploitation."
+
+#: ../../contributing.rst:23
+msgid ""
+"Any details about your local setup that might be helpful in troubleshooting."
+msgstr ""
+"Tous les détails sur votre configuration locale qui pourraient être utiles "
+"dans le dépannage."
+
+#: ../../contributing.rst:24
+msgid "Detailed steps to reproduce the bug."
+msgstr "Étapes détaillées pour reproduire le bogue."
+
+#: ../../contributing.rst:25
+msgid ""
+"If the bug includes a tracelog, include that in your bug report. Remember on "
+"github, you can enclose code or console output in ``` insert code here ```."
+msgstr ""
+"Si le bogue inclut un tracelog, incluez-le dans votre rapport de bogue. "
+"Rappelez-vous sur github, vous pouvez joindre code ou console sortie dans "
+"``` insérer code ici ```."
+
+#: ../../contributing.rst:28
+msgid "Fix Bugs"
+msgstr "Correction des bogues"
+
+#: ../../contributing.rst:30
+msgid ""
+"Look through the GitHub issues for bugs. Anything tagged with \"bug\" and "
+"\"help wanted\" is open to whoever wants to implement it."
+msgstr ""
+"Regardez les problèmes de GitHub pour les bugs. Tout ce qui est marqué avec "
+"\"bug\" et \"aide recherchée\" est ouvert à celui qui veut le mettre en "
+"œuvre."
+
+#: ../../contributing.rst:33
+msgid "Implement Features"
+msgstr "Mettre en œuvre les fonctionnalités"
+
+#: ../../contributing.rst:35
+msgid ""
+"Look through the GitHub issues for features. Anything tagged with "
+"\"enhancement\" and \"help wanted\" is open to whoever wants to implement it."
+msgstr ""
+"Regardez les problèmes de GitHub pour trouver des fonctionnalités. Tout ce "
+"qui est marqué par « l'amélioration » et « l'aide recherchée » est ouvert à "
+"quiconque veut l'appliquer."
+
+#: ../../contributing.rst:39
+msgid ""
+"You can contact @nothead31 or comment on the issue if you wish to be listed "
+"under 'Assigned'."
+msgstr ""
+"Vous pouvez contacter @nothead31 ou commenter la question si vous souhaitez "
+"être listé sous 'Assigné'."
+
+#: ../../contributing.rst:42
+msgid "Write Documentation"
+msgstr "Écrire la documentation"
+
+#: ../../contributing.rst:44
+msgid ""
+"deep_translator could always use more documentation, whether as part of the "
+"official deep_translator docs, in docstrings, or even on the web in blog "
+"posts, articles, and such. If you do a write-up on your own site, please let "
+"us know and we will add a link to it in the official documentation!"
+msgstr ""
+"deep translator pourrait toujours utiliser plus de documentation, que ce "
+"soit dans le cadre des documents officiels de deep translator, dans les "
+"docstrings, ou même sur le web dans les blogs, les articles, etc. Si vous "
+"faites une inscription sur votre propre site, veuillez nous en informer et "
+"nous y ajouterons un lien dans la documentation officielle!"
+
+#: ../../contributing.rst:47
+msgid "Submit Feedback"
+msgstr "Soumettre les commentaires"
+
+#: ../../contributing.rst:49
+msgid ""
+"The best way to send feedback is to file an issue at https://github.com/"
+"nidhaloff/deep_translator/issues."
+msgstr ""
+"La meilleure façon d'envoyer des commentaires est de déposer un problème à "
+"https://github.com/nidhaloff/deep traducteur/issues."
+
+#: ../../contributing.rst:51
+msgid "If you are proposing a feature:"
+msgstr "Si vous proposez une fonctionnalité:"
+
+#: ../../contributing.rst:53
+msgid "Explain in detail how it would work."
+msgstr "Expliquez en détail comment cela fonctionnerait."
+
+#: ../../contributing.rst:54
+msgid "Keep the scope as narrow as possible, to make it easier to implement."
+msgstr ""
+"Maintenir le champ d'application le plus étroit possible, pour faciliter sa "
+"mise en œuvre."
+
+#: ../../contributing.rst:55
+msgid ""
+"Remember that this is a volunteer-driven project, and that contributions are "
+"welcome :)"
+msgstr ""
+"Rappelez-vous qu'il s'agit d'un projet axé sur le bénévolat et que les "
+"contributions sont les bienvenues :)"
+
+#: ../../contributing.rst:59
+msgid "Get Started!"
+msgstr "Commencez !"
+
+#: ../../contributing.rst:61
+msgid ""
+"Ready to contribute? Here's how to set up ``deep_translator`` for local "
+"development."
+msgstr ""
+"Prêt à contribuer ? Voici comment configurer ``deep traducteur`` pour le "
+"développement local."
+
+#: ../../contributing.rst:63
+msgid ""
+"Fork the `deep-translator-v2 <https://github.com/nidhaloff/deep-translator-"
+"v2>`_ repo on GitHub."
+msgstr ""
+"Fourche le `deep-traducteur-v2 <https://github.com/nidhaloff/deep-traducteur-"
+"v2>`  repo sur GitHub."
+
+#: ../../contributing.rst:64
+msgid "Clone your fork locally::"
+msgstr "Cloner votre fourchette localement:"
+
+#: ../../contributing.rst:68
+msgid ""
+"Install your local copy into a virtualenv. Assuming you have "
+"virtualenvwrapper installed, this is how you set up your fork for local "
+"development::"
+msgstr ""
+"Installez votre copie locale dans un virtualenv. En supposant que vous ayez "
+"installé virtualenvwrapper, voici comment vous configurez votre fourche pour "
+"le développement local :"
+
+#: ../../contributing.rst:77
+msgid ""
+"``poetry install`` will automatically install all package dependencies AND "
+"development dependencies. If you only want to run the package, append --no-"
+"dev to the command."
+msgstr ""
+"``poetry install`` installera automatiquement toutes les dépendances du "
+"paquet ET les dépendances du développement. Si vous voulez seulement lancer "
+"le paquet, ajoutez --no-dev à la commande."
+
+#: ../../contributing.rst:79
+msgid "Create a branch for local development::"
+msgstr "Créer une succursale pour le développement local :"
+
+#: ../../contributing.rst:83
+msgid "Now you can make your changes locally."
+msgstr "Maintenant, vous pouvez faire vos changements localement."
+
+#: ../../contributing.rst:85
+msgid ""
+"Ensure your changes are covered by test modules and that the tests pass with "
+"pytest before committing."
+msgstr ""
+"Assurez-vous que vos modifications sont couvertes par des modules de test et "
+"que les tests passent avec pytest avant de commettre."
+
+#: ../../contributing.rst:87
+msgid "Commit your changes and push your branch to GitHub::"
+msgstr "Commettez vos modifications et poussez votre branche vers GitHub :"
+
+#: ../../contributing.rst:93
+msgid "Submit a pull request through the GitHub website."
+msgstr "Soumettre une demande de tirage sur le site GitHub."
+
+#: ../../contributing.rst:96
+msgid "Pull Request Guidelines"
+msgstr "Lignes directrices sur les demandes de tirage"
+
+#: ../../contributing.rst:98
+msgid "Before you submit a pull request, check that it meets these guidelines:"
+msgstr ""
+"Avant de soumettre une demande de tirage, vérifiez qu'elle respecte les "
+"présentes lignes directrices :"
+
+#: ../../contributing.rst:100
+msgid ""
+"The pull request should include any relevant tests (located "
+"under :file:`.deep_translator/tests`)"
+msgstr ""
+"La demande de tirage doit inclure tous les tests pertinents (situé "
+"sous :file:`.deep traducteur/tests`)"
+
+#: ../../contributing.rst:101
+msgid ""
+"If the pull request adds functionality, the docs should be updated. Put your "
+"new functionality into a function with a docstring, and add the feature to "
+"the list in README.rst."
+msgstr ""
+"Si la demande de tirage ajoute des fonctionnalités, les documents doivent "
+"être mis à jour. Mettez votre nouvelle fonctionnalité dans une fonction avec "
+"un docstring, et ajoutez la fonctionnalité à la liste dans README.rst."
+
+#: ../../contributing.rst:102
+msgid ""
+"Pull requests are automatically tested on GitHub for compatibility with "
+"Python version 3.7, 3.8, and 3.9. Please review your test results and ensure "
+"your request passes all tests."
+msgstr ""
+"Les demandes de tirage sont automatiquement testées sur GitHub pour être "
+"compatibles avec les versions 3.7, 3.8 et 3.9. Veuillez examiner les "
+"résultats de vos tests et vous assurer que votre demande passe tous les "
+"tests."
+
+#: ../../contributing.rst:105
+msgid "Tips"
+msgstr "Conseils"
+
+#: ../../contributing.rst:107
+msgid "To run only certain tests::"
+msgstr "Pour exécuter seulement certains essais :"
+
+#: ../../contributing.rst:113
+msgid ""
+"will run all tests, excluding any that previously passed, and provides a "
+"simple test report."
+msgstr ""
+"effectuera tous les essais, à l'exclusion de ceux qui ont déjà été passés, "
+"et fournira un rapport d'essai simple."
+
+#: ../../contributing.rst:115
+msgid "$ pytest test_mod.py"
+msgstr "$ pytest test mod.py"
+
+#: ../../contributing.rst:119
+msgid ""
+"Runs only the tests in the named testing module. Useful for only testing a "
+"subset of functionality."
+msgstr ""
+"N'exécute que les tests dans le module de test nommé. Utile pour seulement "
+"tester un sous-ensemble de fonctionnalité."
+
+#: ../../contributing.rst:122
+msgid "Deploying"
+msgstr "Déploiement"
+
+#: ../../contributing.rst:124
+msgid ""
+"A reminder for the maintainers on how to deploy. Make sure all your changes "
+"are committed (including an entry in HISTORY.rst). Then run::"
+msgstr ""
+"Un rappel pour les responsables sur la façon de se déployer. Assurez-vous "
+"que tous vos changements sont engagés (y compris une entrée dans "
+"HISTORY.rst). Puis lancez :"
+
+#: ../../contributing.rst:132
+msgid ""
+"After pushing a new version to the master branch, github will build a "
+"package and upload it to PyPI."
+msgstr ""
+"Après avoir poussé une nouvelle version vers la branche maître, github va "
+"construire un paquet et le télécharger sur PyPI."

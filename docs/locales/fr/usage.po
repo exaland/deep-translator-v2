@@ -1,0 +1,279 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Nidhal Baccouri
+# This file is distributed under the same license as the deep_translator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: deep_translator 1.11.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 21:24+0100\n"
+"PO-Revision-Date: 2026-11-24 21:37+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.10\n"
+
+#: ../../usage.rst:3
+msgid "Usage"
+msgstr "Utilisation"
+
+#: ../../usage.rst:6
+msgid ""
+"In this section, demos on how to use all different integrated translators "
+"are provided."
+msgstr ""
+"Dans cette section, des démonstrations sur la façon d'utiliser tous les "
+"différents traducteurs intégrés sont fournies."
+
+#: ../../usage.rst:10
+msgid "You can always pass the languages by the name or by abbreviation."
+msgstr "Vous pouvez toujours passer les langues par le nom ou par abréviation."
+
+#: ../../usage.rst:12
+msgid ""
+"*Example*: If you want to use english as a source or target language, you "
+"can pass **english** or **en** as an argument"
+msgstr ""
+"*Exemple*: Si vous voulez utiliser l'anglais comme langue source ou cible, "
+"vous pouvez passer **francais** ou **fr** comme argument"
+
+#: ../../usage.rst:15
+msgid "Imports"
+msgstr "Importations"
+
+#: ../../usage.rst:31
+msgid "Check Supported Languages"
+msgstr "Vérifier les langues prises en charge"
+
+#: ../../usage.rst:35
+msgid ""
+"You can check the supported languages of each translator by calling the "
+"get_supported_languages function as a static method."
+msgstr ""
+"Vous pouvez vérifier les langues prises en charge de chaque traducteur en "
+"appelant la fonction get supported languages comme méthode statique."
+
+#: ../../usage.rst:47
+msgid "Language Detection"
+msgstr "Détection de langue"
+
+#: ../../usage.rst:51
+msgid ""
+"You can also detect language automatically. Notice that this package is free "
+"and my goal is to keep it free. Therefore, you will need to get your own "
+"api_key if you want to use the language detection function. I figured out "
+"you can get one for free here: https://detectlanguage.com/documentation"
+msgstr ""
+"Vous pouvez également détecter la langue automatiquement. Notez que ce "
+"paquet est gratuit et mon but est de le garder libre. Par conséquent, vous "
+"devrez obtenir votre propre api key si vous voulez utiliser la fonction de "
+"détection de langue. J'ai compris que vous pouvez en obtenir un gratuitement "
+"ici: https://detectlanguage.com/documentation"
+
+#: ../../usage.rst:55
+msgid "Single Text Detection"
+msgstr "Détection de texte unique"
+
+#: ../../usage.rst:62
+msgid "Batch Detection"
+msgstr "Détection par lots"
+
+#: ../../usage.rst:72
+msgid "Google Translate"
+msgstr "Google Translate"
+
+#: ../../usage.rst:78
+msgid "You can use automatic language detection to detect the source language:"
+msgstr ""
+"Vous pouvez utiliser la détection automatique du langage pour détecter le "
+"langage source:"
+
+#: ../../usage.rst:84 ../../usage.rst:318
+msgid "You can pass languages by name or by abbreviation:"
+msgstr "Vous pouvez passer des langues par nom ou par abréviation :"
+
+#: ../../usage.rst:93 ../../usage.rst:125 ../../usage.rst:159
+#: ../../usage.rst:328
+msgid "Translate batch of texts"
+msgstr "Traduire le lot de textes"
+
+#: ../../usage.rst:102 ../../usage.rst:335
+msgid "Translate from a file:"
+msgstr "Traduire depuis un fichier :"
+
+#: ../../usage.rst:109
+msgid "Mymemory Translator"
+msgstr "Mymemory Traducteur"
+
+#: ../../usage.rst:113
+msgid ""
+"As in google translate, you can use the automatic language detection with "
+"mymemory by using \"auto\" as an argument for the source language. However, "
+"this feature in the mymemory translator is not so powerful as in google "
+"translate."
+msgstr ""
+"Comme dans Google Translate, vous pouvez utiliser la détection automatique "
+"du langage avec mymemory en utilisant \"auto\" comme argument pour le "
+"langage source. Cependant, cette fonctionnalité dans le traducteur mymémory "
+"n'est pas si puissante que dans google traduire."
+
+#: ../../usage.rst:117 ../../usage.rst:151
+msgid "Simple translation"
+msgstr "Traduction simple"
+
+#: ../../usage.rst:134
+msgid "Translate from file"
+msgstr "Traduire à partir du fichier"
+
+#: ../../usage.rst:144
+msgid "DeeplTranslator"
+msgstr "Traducteur de profondeur"
+
+#: ../../usage.rst:148
+msgid ""
+"In order to use the DeeplTranslator translator, you need to generate an api "
+"key. Visit https://www.deepl.com/en/docs-api/ for more information"
+msgstr ""
+"Pour utiliser le traducteur DeeplTranslator, vous devez générer une clé api. "
+"Visitez https://www.deepl.com/fr/docs-api/ pour plus d'informations"
+
+#: ../../usage.rst:169
+msgid "QcriTranslator"
+msgstr "QcriTraducteur"
+
+#: ../../usage.rst:173
+msgid ""
+"In order to use the QcriTranslator translator, you need to generate a free "
+"api key. Visit https://mt.qcri.org/api/ for more information"
+msgstr ""
+"Pour utiliser le traducteur QcriTranslator, vous devez générer une clé api "
+"gratuite. Visitez https://mt.qcri.org/api/ pour plus d'informations"
+
+#: ../../usage.rst:176
+msgid "Check languages"
+msgstr "Vérifier les langues"
+
+#: ../../usage.rst:183
+msgid "Check domains"
+msgstr "Vérifier les domaines"
+
+#: ../../usage.rst:190 ../../usage.rst:279
+msgid "Text translation"
+msgstr "Traduction textuelle"
+
+#: ../../usage.rst:202
+msgid "Linguee Translator"
+msgstr "Traducteur Linguee"
+
+#: ../../usage.rst:208 ../../usage.rst:242
+msgid "Simple Translation"
+msgstr "Traduction simple"
+
+#: ../../usage.rst:217 ../../usage.rst:251
+msgid "Return all synonyms or words that match"
+msgstr "Retourner tous les synonymes ou mots qui correspondent"
+
+#: ../../usage.rst:224 ../../usage.rst:258
+msgid "Translate a batch of words"
+msgstr "Traduire un lot de mots"
+
+#: ../../usage.rst:231
+msgid "PONS Translator"
+msgstr "PONS Traducteur"
+
+#: ../../usage.rst:235
+msgid ""
+"You can pass the languages by the name or by abbreviation just like previous "
+"examples using GoogleTranslate"
+msgstr ""
+"Vous pouvez passer les langues par le nom ou par abréviation tout comme les "
+"exemples précédents en utilisant GoogleTranslate"
+
+#: ../../usage.rst:265
+msgid "Yandex Translator"
+msgstr "Traducteur Yandex"
+
+#: ../../usage.rst:269
+msgid ""
+"You need to require n **private api key** if you want to use the yandex "
+"translator. Visit the official website for more information about how to get "
+"one"
+msgstr ""
+"Vous devez utiliser n ** private api key** si vous voulez utiliser le "
+"traducteur yandex. Visitez le site officiel pour plus d'informations sur la "
+"façon d'en obtenir un"
+
+#: ../../usage.rst:272
+msgid "Language detection"
+msgstr "Détection des langues"
+
+#: ../../usage.rst:291
+msgid "File translation"
+msgstr "Traduction de fichier"
+
+#: ../../usage.rst:297
+msgid "Batch translation"
+msgstr "Traduction par lots"
+
+#: ../../usage.rst:304
+msgid "Libre Translator"
+msgstr "Libre traducteur"
+
+#: ../../usage.rst:308
+msgid ""
+"Libre translate has multiple  `mirrors <https://github.com/LibreTranslate/"
+"LibreTranslate#mirrors>`_ which can be used for the API endpoint. Some "
+"require an API key to be used. By default the base url is set to "
+"`libretranslate.de <https://libretranslate.de/>`_ . This can be set using "
+"the \"base_url\" input parameter."
+msgstr ""
+"Libre traduire a plusieurs `mirrors <https://github.com/LibreTraduit par la "
+"Rédaction qui peut être utilisé pour le paramètre API. Certains nécessitent "
+"une clé API à utiliser. Par défaut, l'url de base est défini à "
+"`libretranslate.de <https://libretranslate.de/>`  . Ceci peut être défini en "
+"utilisant le paramètre d'entrée \"base url\"."
+
+#: ../../usage.rst:342
+msgid "Usage from Terminal"
+msgstr "Utilisation depuis le terminal"
+
+#: ../../usage.rst:344
+msgid ""
+"For a quick access, you can use the deep_translator from terminal. For this "
+"to work, you need to provide the right arguments, which are the translator "
+"you want to use, source language, target language and the text you want to "
+"translate."
+msgstr ""
+"Pour un accès rapide, vous pouvez utiliser deep traducteur depuis le "
+"terminal. Pour que cela fonctionne, vous devez fournir les bons arguments, "
+"qui sont le traducteur que vous voulez utiliser, la langue source, la langue "
+"cible et le texte que vous voulez traduire."
+
+#: ../../usage.rst:348
+msgid ""
+"For example, provide \"google\" as an argument to use the google translator. "
+"Alternatively, you can use the other supported translators. Just read the "
+"documentation to have an overview about the supported translators in this "
+"library."
+msgstr ""
+"Par exemple, fournir \"google\" comme argument pour utiliser le traducteur "
+"google. Vous pouvez également utiliser les autres traducteurs pris en "
+"charge. Il suffit de lire la documentation pour avoir un aperçu des "
+"traducteurs pris en charge dans cette bibliothèque."
+
+#: ../../usage.rst:356
+msgid "Or you can go for the short version:"
+msgstr "Ou vous pouvez aller pour la version courte:"
+
+#: ../../usage.rst:362
+msgid ""
+"If you want, you can also pass the source and target language by their "
+"abbreviation"
+msgstr ""
+"Si vous voulez, vous pouvez également passer la langue source et cible par "
+"leur abréviation"

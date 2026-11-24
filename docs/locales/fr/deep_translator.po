@@ -1,0 +1,319 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2020, Nidhal Baccouri
+# This file is distributed under the same license as the deep_translator package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: deep_translator 1.11.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-11-24 21:24+0100\n"
+"PO-Revision-Date: 2026-11-24 21:30+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.10\n"
+
+#: ../../deep_translator.rst:2
+msgid "deep\\_translator package"
+msgstr "paquet profond\\ traducteur"
+
+#: ../../deep_translator.rst:5
+msgid "Submodules"
+msgstr "Sous-modules"
+
+#: ../../deep_translator.rst:8
+msgid "deep\\_translator.base module"
+msgstr "module de base deep\\ traducteur.base"
+
+#: ../../deep_translator.rst:16
+msgid "deep\\_translator.cli module"
+msgstr "module profond\\ traducteur.cli"
+
+#: ../../deep_translator.rst:24
+msgid "deep\\_translator.constants module"
+msgstr "module profond\\ traducteur.constants"
+
+#: ../../deep_translator.rst:32
+msgid "deep\\_translator.deepl module"
+msgstr "module deep\\ traducteur.deepl"
+
+#: ../../../deep_translator/deepl.py:docstring of
+#: deep_translator.deepl.DeeplTranslator:1
+msgid "Bases: :py:class:`~deep_translator.base.BaseTranslator`"
+msgstr "Bases::py:class:`~deep traducteur.base. Traducteur de base"
+
+#: ../../../deep_translator/deepl.py:docstring of
+#: deep_translator.deepl.DeeplTranslator:1
+msgid ""
+"class that wraps functions, which use the DeeplTranslator translator under "
+"the hood to translate word(s)"
+msgstr ""
+"classe qui enveloppe les fonctions, qui utilisent le traducteur "
+"DeeplTraducteur sous le capot pour traduire mot(s)"
+
+#: ../../../deep_translator/deepl.py:docstring of
+#: deep_translator.deepl.DeeplTranslator.translate:1
+msgid "@param text: text to translate @return: translated text"
+msgstr "@param: texte à traduire @retour: texte traduit"
+
+#: ../../../deep_translator/deepl.py:docstring of
+#: deep_translator.deepl.DeeplTranslator.translate_batch:1
+msgid "@param batch: list of texts to translate @return: list of translations"
+msgstr ""
+"@param batch: liste des textes à traduire @retour: liste des traductions"
+
+#: ../../deep_translator.rst:40
+msgid "deep\\_translator.detection module"
+msgstr "module de détection profonde\\ traducteur"
+
+#: ../../../deep_translator/detection.py:docstring of
+#: deep_translator.detection:1
+msgid "language detection API"
+msgstr "aPI de détection de langue"
+
+#: ../../../deep_translator/detection.py:docstring of
+#: deep_translator.detection.batch_detection:1
+#: deep_translator.detection.single_detection:1
+msgid "function responsible for detecting the language from a text"
+msgstr "fonction responsable de la détection de la langue d'un texte"
+
+#: ../../../deep_translator/detection.py:docstring of
+#: deep_translator.detection.batch_detection:3
+msgid ""
+"@param text_list: target batch that you want to detect its language @param "
+"api_key: your private API key @param detailed: set to True if you want to "
+"get detailed information about the detection process"
+msgstr ""
+"@param text list: cible batch que vous voulez détecter sa langue @param api "
+"key: votre clé d'API privée @param détaillée: défini à True si vous voulez "
+"obtenir des informations détaillées sur le processus de détection"
+
+#: ../../../deep_translator/detection.py:docstring of
+#: deep_translator.detection.get_request_body:1
+msgid "send a request and return the response body parsed as dictionary"
+msgstr ""
+"envoyer une demande et retourner le corps de réponse analysé comme "
+"dictionnaire"
+
+#: ../../../deep_translator/detection.py:docstring of
+#: deep_translator.detection.get_request_body:3
+msgid ""
+"@param text: target text that you want to detect its language @type text: "
+"str @type api_key: str @param api_key: your private API key"
+msgstr ""
+"@param text: texte cible que vous voulez détecter son langage @type text: "
+"str @type api key: str @param api key: votre clé d'API privée"
+
+#: ../../../deep_translator/detection.py:docstring of
+#: deep_translator.detection.single_detection:3
+msgid ""
+"@param text: target text that you want to detect its language @type text: "
+"str @type api_key: str @param api_key: your private API key @param detailed: "
+"set to True if you want to get detailed information about the detection "
+"process"
+msgstr ""
+"@param text: cible text that you want to detect its language @type text: str "
+"@type api key: str @param api key: your private API key @param detailed: set "
+"to True si vous voulez obtenir des informations détaillées sur le processus "
+"de détection"
+
+#: ../../deep_translator.rst:48
+msgid "deep\\_translator.engines module"
+msgstr "module deep\\ traducteur.moteurs"
+
+#: ../../deep_translator.rst:56
+msgid "deep\\_translator.exceptions module"
+msgstr "module profond\\ traducteur.exceptions"
+
+#: ../../../deep_translator/exceptions.py:docstring of
+#: deep_translator.exceptions.ApiKeyException:1
+#: deep_translator.exceptions.ElementNotFoundInGetRequest:1
+#: deep_translator.exceptions.InvalidSourceOrTargetLanguage:1
+#: deep_translator.exceptions.LanguageNotSupportedException:1
+#: deep_translator.exceptions.NotValidLength:1
+#: deep_translator.exceptions.NotValidPayload:1
+#: deep_translator.exceptions.TranslationNotFound:1
+msgid "Bases: :py:class:`~deep_translator.exceptions.BaseError`"
+msgstr "Bases::py:class:`~deep traducteur.exceptions.BaseError`"
+
+#: ../../../deep_translator/exceptions.py:docstring of
+#: deep_translator.exceptions.ApiKeyException:1
+msgid "exception thrown if no ApiKey was provided"
+msgstr "exception lancée si aucune ApiKey n'a été fournie"
+
+#: ../../../deep_translator/exceptions.py:docstring of
+#: deep_translator.exceptions.AuthorizationException:1
+#: deep_translator.exceptions.BaiduAPIerror:1
+#: deep_translator.exceptions.BaseError:1
+#: deep_translator.exceptions.MicrosoftAPIerror:1
+#: deep_translator.exceptions.RequestError:1
+#: deep_translator.exceptions.ServerException:1
+#: deep_translator.exceptions.TencentAPIerror:1
+#: deep_translator.exceptions.TooManyRequests:1
+msgid "Bases: :py:class:`Exception`"
+msgstr "Bases::py:class:`Exception`"
+
+#: ../../../deep_translator/exceptions.py:docstring of
+#: deep_translator.exceptions.BaiduAPIerror:1
+msgid "exception thrown if Baidu API returns one of its errors"
+msgstr "exception lancée si l'API Baidu retourne une de ses erreurs"
+
+#: ../../../deep_translator/exceptions.py:docstring of
+#: deep_translator.exceptions.BaseError:1
+msgid "base error structure class"
+msgstr "classe de structure d'erreur de base"
+
+#: ../../../deep_translator/exceptions.py:docstring of
+#: deep_translator.exceptions.ElementNotFoundInGetRequest:1
+msgid ""
+"exception thrown if the html element was not found in the body parsed by "
+"beautifulsoup"
+msgstr ""
+"exception lancée si l'élément html n'a pas été trouvé dans le corps analysé "
+"par beautifulsoup"
+
+#: ../../../deep_translator/exceptions.py:docstring of
+#: deep_translator.exceptions.InvalidSourceOrTargetLanguage:1
+#: deep_translator.exceptions.NotValidPayload:1
+msgid "exception thrown if the user enters an invalid payload"
+msgstr ""
+"exception lancée si l'utilisateur entre dans une charge utile non valide"
+
+#: ../../../deep_translator/exceptions.py:docstring of
+#: deep_translator.exceptions.LanguageNotSupportedException:1
+msgid ""
+"exception thrown if the user uses a language that is not supported by the "
+"deep_translator"
+msgstr ""
+"exception lancée si l'utilisateur utilise une langue qui n'est pas supportée "
+"par le  traducteur profond"
+
+#: ../../../deep_translator/exceptions.py:docstring of
+#: deep_translator.exceptions.MicrosoftAPIerror:1
+msgid "exception thrown if Microsoft API returns one of its errors"
+msgstr "exception lancée si Microsoft API renvoie une de ses erreurs"
+
+#: ../../../deep_translator/exceptions.py:docstring of
+#: deep_translator.exceptions.NotValidLength:1
+msgid ""
+"exception thrown if the provided text exceed the length limit of the "
+"translator"
+msgstr ""
+"exception lancée si le texte fourni dépasse la limite de longueur du "
+"traducteur"
+
+#: ../../../deep_translator/exceptions.py:docstring of
+#: deep_translator.exceptions.RequestError:1
+#: deep_translator.exceptions.TooManyRequests:1
+msgid ""
+"exception thrown if an error occurred during the request call, e.g a "
+"connection problem."
+msgstr ""
+"exception lancée si une erreur s'est produite pendant l'appel de requête, "
+"par exemple un problème de connexion."
+
+#: ../../../deep_translator/exceptions.py:docstring of
+#: deep_translator.exceptions.ServerException:1
+msgid "Default YandexTranslate exception from the official website"
+msgstr "Par défaut YandexException du site officiel"
+
+#: ../../../deep_translator/exceptions.py:docstring of
+#: deep_translator.exceptions.TencentAPIerror:1
+msgid "exception thrown if Tencent API returns one of its errors"
+msgstr "exception lancée si Tencent API retourne une de ses erreurs"
+
+#: ../../../deep_translator/exceptions.py:docstring of
+#: deep_translator.exceptions.TranslationNotFound:1
+msgid ""
+"exception thrown if no translation was found for the text provided by the "
+"user"
+msgstr ""
+"exception lancée si aucune traduction n'a été trouvée pour le texte fourni "
+"par l'utilisateur"
+
+#: ../../deep_translator.rst:64
+msgid "deep\\_translator.google module"
+msgstr "module profond\\ traducteur.google"
+
+#: ../../deep_translator.rst:72
+msgid "deep\\_translator.libre module"
+msgstr "module profond\\ traducteur.libre"
+
+#: ../../deep_translator.rst:80
+msgid "deep\\_translator.linguee module"
+msgstr "module profond\\ traducteur.linguee"
+
+#: ../../deep_translator.rst:88
+msgid "deep\\_translator.microsoft module"
+msgstr "module profond\\ traducteur.microsoft"
+
+#: ../../deep_translator.rst:96
+msgid "deep\\_translator.mymemory module"
+msgstr "module profond\\ traducteur.mymémory"
+
+#: ../../deep_translator.rst:104
+msgid "deep\\_translator.papago module"
+msgstr "module profond\\ traducteur.papago"
+
+#: ../../deep_translator.rst:112
+msgid "deep\\_translator.pons module"
+msgstr "module profonde\\ traducteur.pons"
+
+#: ../../deep_translator.rst:120
+msgid "deep\\_translator.qcri module"
+msgstr "module profond\\ traducteur.qcri"
+
+#: ../../deep_translator.rst:128
+msgid "deep\\_translator.validate module"
+msgstr "module profond\\ traducteur.validate"
+
+#: ../../../deep_translator/validate.py:docstring of
+#: deep_translator.validate.is_input_valid:1
+msgid ""
+"validate the target text to translate @param min_chars: min characters "
+"@param max_chars: max characters @param text: text to translate @return: bool"
+msgstr ""
+"valider le texte cible pour traduire @param min chars: caractères min @param "
+"max chars: caractères max @param text: texte pour traduire @return: bool"
+
+#: ../../../deep_translator/validate.py:docstring of
+#: deep_translator.validate.request_failed:1
+msgid ""
+"Check if a request has failed or not. A request is considered successfull if "
+"the status code is in the 2** range."
+msgstr ""
+"Vérifiez si une demande a échoué ou non. Une demande est considérée comme "
+"acceptée si le code d'état se situe dans la plage 2**."
+
+#: ../../../deep_translator/validate.py:docstring of
+#: deep_translator.validate.request_failed:4
+msgid "Args:"
+msgstr "Args :"
+
+#: ../../../deep_translator/validate.py:docstring of
+#: deep_translator.validate.request_failed:5
+msgid "status_code (int): status code of the request"
+msgstr "status code (int): code d'état de la requête"
+
+#: ../../../deep_translator/validate.py:docstring of
+#: deep_translator.validate.request_failed:7
+msgid "Returns:"
+msgstr "Retourne & #160;:"
+
+#: ../../../deep_translator/validate.py:docstring of
+#: deep_translator.validate.request_failed:8
+msgid "bool: indicates request failure"
+msgstr "bool: indique l'échec de la demande"
+
+#: ../../deep_translator.rst:136
+msgid "deep\\_translator.yandex module"
+msgstr "module profond\\ traducteur.yandex"
+
+#: ../../deep_translator.rst:144
+msgid "Module contents"
+msgstr "Contenu du module"
