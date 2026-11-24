@@ -14,9 +14,12 @@ deep-translator-v2
         :target: https://pypi.org/project/deep-translator-v2/
 .. image:: https://img.shields.io/travis/nidhaloff/deep-translator.svg
         :target: https://github.com/nidhaloff/deep-translator/actions/workflows/build.yml
-.. image:: https://readthedocs.org/projects/deep-translator/badge/?version=latest
-        :target: https://deep-translator.readthedocs.io/en/latest/?badge=latest
-        :alt: Documentation Status
+.. image:: https://app.readthedocs.org/projects/deep-translator-v2-french/badge/?version=latest
+        :target: https://deep-translator-v2-french.readthedocs.io/fr/latest/
+        :alt: Documentation Deep Translator v2 French
+.. image:: https://app.readthedocs.org/projects/deep-translator-v2/badge/?version=latest
+        :target: https://deep-translator-v2.readthedocs.io/fr/latest/
+        :alt: Documentation Deep Translator v2
 .. image:: https://img.shields.io/pypi/l/deep-translator-v2
         :target: https://pypi.org/project/deep-translator-v2/
 
