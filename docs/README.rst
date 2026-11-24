@@ -48,7 +48,8 @@ A flexible **FREE** and **UNLIMITED** tool to translate between different langua
 Exaland Concept maintains this fork of `deep-translator <https://github.com/nidhaloff/deep-translator>`_, originally created by Nidhal Baccouri and maintained upstream by Nidhal Baccouri and Chris Trenthem.
 
 * Free software: Apache License 2.0
-* Documentation: https://deep-translator.readthedocs.io.
+* Documentation (English): https://deep-translator-v2.readthedocs.io.
+* Documentation (French): https://deep-translator-v2-french.readthedocs.io.
 * Swagger API: https://deep-translator-api.azurewebsites.net/docs.
 
 |
