@@ -19,6 +19,12 @@
 #
 import os
 import sys
+from pathlib import Path
+
+if sys.version_info >= (3, 11):
+    import tomllib
+else:
+    import tomli as tomllib
 
 sys.path.insert(0, os.path.abspath(".."))
 
@@ -58,9 +64,7 @@ author = "Nidhal Baccouri"
 # the built documents.
 #
 # The short X.Y version.
-import tomllib
-
-with open("../pyproject.toml", "r") as f:
+with (Path(__file__).resolve().parent.parent / "pyproject.toml").open("rb") as f:
     tom = tomllib.load(f)
 version = tom["tool"]["poetry"]["version"]
 # The full version, including alpha/beta/rc tags.
