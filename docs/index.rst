@@ -1,5 +1,5 @@
 
-Welcome to deep_translator's documentation!
+Welcome to deep_translator's v2 documentation!
 ===========================================
 
 .. toctree::

@@ -2,6 +2,20 @@
 Important History
 ==================
 
+- 1.11.4
+
+  - Fixed ``ChatGptTranslator`` on standard installations by calling the OpenAI
+    Chat Completions API through the existing ``requests`` dependency.
+  - Replaced the default ``gpt-3.5-turbo`` model with ``gpt-6-luna``.
+    The ``model`` argument still lets callers select a compatible model.
+  - Read ``OPENAI_API_KEY`` when creating a translator and retained support
+    for the legacy ``OPEN_API_KEY`` variable.
+  - Renamed the PyPI distribution to ``deep-translator-v2`` under
+    Exaland Concept. The ``deep_translator`` import and existing CLI commands
+    remain compatible.
+  - Aligned the distribution's license metadata with the existing Apache 2.0
+    license.
+
 - 1.5.4 @kuspia: restructured google trans url to resolve language conflicts. Supercedes fix in 1.5.3
 - 1.5.3 bug fix to resolve translation issues with russian-ukranian languages
 - 1.5.0 improved cli functionality with streamlined commands and numerous bugfixes.

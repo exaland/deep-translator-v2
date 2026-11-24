@@ -12,7 +12,7 @@ To install deep_translator, run this command in your terminal:
 
 .. code-block:: console
 
-    $ pip install deep_translator
+    $ pip install deep-translator-v2
 
 This is the preferred method to install deep_translator, as it will always install the most recent stable release.
 
