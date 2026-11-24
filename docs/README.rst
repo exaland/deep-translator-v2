@@ -12,8 +12,6 @@ deep-translator-v2
 
 .. image:: https://img.shields.io/pypi/v/deep-translator-v2.svg
         :target: https://pypi.org/project/deep-translator-v2/
-.. image:: https://img.shields.io/travis/nidhaloff/deep-translator.svg
-        :target: https://github.com/nidhaloff/deep-translator/actions/workflows/build.yml
 .. image:: https://app.readthedocs.org/projects/deep-translator-v2-french/badge/?version=latest
         :target: https://deep-translator-v2-french.readthedocs.io/fr/latest/
         :alt: Documentation Deep Translator v2 French
@@ -36,9 +34,9 @@ deep-translator-v2
 .. image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit
         :target: https://github.com/pre-commit/pre-commit
 
-.. image:: https://img.shields.io/twitter/url?url=https%3A%2F%2Ftwitter.com%2FNidhalBaccouri
+.. image:: https://img.shields.io/twitter/url?url=https%3A%2F%2Ftwitter.com%2exaland
         :alt: Twitter URL
-        :target: https://twitter.com/NidhalBaccouri
+        :target: https://twitter.com/exaland
 
 
 =======================
