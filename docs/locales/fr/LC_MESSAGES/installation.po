@@ -45,8 +45,8 @@ msgid ""
 "If you don't have `pip`_ installed, this `Python installation guide`_ can "
 "guide you through the process."
 msgstr ""
-"Si vous n'avez pas `pip`  installé, ce guide d'installation `Python`  peut "
-"vous guider dans le processus."
+"Si `pip`_ n'est pas installé, suivez le `guide d'installation de Python "
+"<Python installation guide_>`_."
 
 #: ../../installation.rst:27
 msgid "From source code"
@@ -56,8 +56,7 @@ msgstr "Code source"
 msgid ""
 "The sources for deep_translator can be downloaded from the `Github repo`_."
 msgstr ""
-"Les sources pour deep translator peuvent être téléchargées à partir du "
-"`Github repo` ."
+"Vous pouvez télécharger le code source depuis le `dépôt GitHub <Github repo_>`_."
 
 #: ../../installation.rst:31
 msgid "You can either clone the public repository:"
@@ -65,7 +64,7 @@ msgstr "Vous pouvez cloner le dépôt public :"
 
 #: ../../installation.rst:37
 msgid "Or download the `tarball`_:"
-msgstr "Ou téléchargez le `tarball` :"
+msgstr "Ou téléchargez l’`archive source <tarball_>`_ :"
 
 #: ../../installation.rst:43
 msgid "Once you have a copy of the source, you can install it with:"

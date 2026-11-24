@@ -24,7 +24,7 @@ msgstr "Sommaire :"
 
 #: ../../index.rst:3
 msgid "Welcome to deep_translator's v2 documentation!"
-msgstr "Bienvenue dans la documentation v2 de deep translator!"
+msgstr "Bienvenue dans la documentation de deep-translator-v2 !"
 
 #: ../../index.rst:19
 msgid "Indices and tables"
@@ -32,7 +32,7 @@ msgstr "Indices et tableaux"
 
 #: ../../index.rst:20
 msgid ":ref:`genindex`"
-msgstr ":ref: 'genindex'"
+msgstr ":ref:`genindex`"
 
 #: ../../index.rst:21
 msgid ":ref:`modindex`"
@@ -40,4 +40,4 @@ msgstr ":ref:`modindex`"
 
 #: ../../index.rst:22
 msgid ":ref:`search`"
-msgstr "recherche"
+msgstr ":ref:`search`"

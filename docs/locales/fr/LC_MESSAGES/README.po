@@ -20,7 +20,7 @@ msgstr ""
 
 #: ../../README.rst:3
 msgid "deep-translator-v2"
-msgstr "traducteur profond-v2"
+msgstr "deep-translator-v2"
 
 #: ../../README.rst:5
 msgid "deep-translator-icon"
@@ -549,9 +549,8 @@ msgid ""
 "translator. Visit the official website for more information about how to get "
 "one"
 msgstr ""
-"Si vous voulez utiliser le traducteur yandex, vous devez avoir besoin d'une "
-"clé api privée **. Visitez le site officiel pour plus d'informations sur la "
-"façon d'en obtenir un"
+"Pour utiliser le traducteur Yandex, vous avez besoin d'une **clé API privée**. "
+"Consultez le site officiel pour savoir comment en obtenir une."
 
 #: ../../README.rst:498
 msgid "Language detection"

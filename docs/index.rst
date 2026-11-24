@@ -1,6 +1,6 @@
 
 Welcome to deep_translator's v2 documentation!
-===========================================
+===============================================
 
 .. toctree::
    :maxdepth: 2
