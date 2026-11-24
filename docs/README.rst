@@ -1,5 +1,5 @@
 ##################
-deep-translator
+deep-translator-v2
 ##################
 
 .. image:: ../assets/icon.jpg
@@ -10,25 +10,25 @@ deep-translator
 |
 
 
-.. image:: https://img.shields.io/pypi/v/deep-translator.svg
-        :target: https://pypi.python.org/pypi/deep-translator
+.. image:: https://img.shields.io/pypi/v/deep-translator-v2.svg
+        :target: https://pypi.org/project/deep-translator-v2/
 .. image:: https://img.shields.io/travis/nidhaloff/deep-translator.svg
         :target: https://github.com/nidhaloff/deep-translator/actions/workflows/build.yml
 .. image:: https://readthedocs.org/projects/deep-translator/badge/?version=latest
         :target: https://deep-translator.readthedocs.io/en/latest/?badge=latest
         :alt: Documentation Status
-.. image:: https://img.shields.io/pypi/l/deep-translator
-        :target: https://pypi.python.org/pypi/deep-translator
+.. image:: https://img.shields.io/pypi/l/deep-translator-v2
+        :target: https://pypi.org/project/deep-translator-v2/
 
-.. image:: https://img.shields.io/pypi/status/deep-translator
-        :target: https://pypi.python.org/pypi/deep-translator
+.. image:: https://img.shields.io/pypi/status/deep-translator-v2
+        :target: https://pypi.org/project/deep-translator-v2/
 
-.. image:: https://pepy.tech/badge/deep-translator
-    :target: https://pepy.tech/project/deep-translator
+.. image:: https://pepy.tech/badge/deep-translator-v2
+    :target: https://pepy.tech/project/deep-translator-v2
 
 
-.. image:: https://img.shields.io/pypi/wheel/deep-translator
-        :target: https://pypi.python.org/pypi/deep-translator
+.. image:: https://img.shields.io/pypi/wheel/deep-translator-v2
+        :target: https://pypi.org/project/deep-translator-v2/
 
 .. image:: https://img.shields.io/badge/pre--commit-enabled-brightgreen?logo=pre-commit
         :target: https://github.com/pre-commit/pre-commit
@@ -44,8 +44,9 @@ Translation for humans
 
 A flexible **FREE** and **UNLIMITED** tool to translate between different languages in a simple way using multiple translators.
 
+Exaland Concept maintains this fork of `deep-translator <https://github.com/nidhaloff/deep-translator>`_, originally created by Nidhal Baccouri and maintained upstream by Nidhal Baccouri and Chris Trenthem.
 
-* Free software: MIT license
+* Free software: Apache License 2.0
 * Documentation: https://deep-translator.readthedocs.io.
 * Swagger API: https://deep-translator-api.azurewebsites.net/docs.
 
@@ -134,9 +135,9 @@ Install the stable release:
 
 .. code-block:: console
 
-    $ pip install -U deep-translator
+    $ pip install -U deep-translator-v2
 
-    $ poetry add deep-translator   # for poetry usage
+    $ poetry add deep-translator-v2   # for poetry usage
 
 take a look at the docs if you want to install from source.
 
@@ -144,13 +145,11 @@ Also, you can install extras if you want support for specific use case. For exam
 
 .. code-block:: console
 
-    $ pip install deep-translator[docx]  # add support for docx translation
+    $ pip install deep-translator-v2[docx]  # add support for docx translation
 
-    $ pip install deep-translator[pdf]  # add support for pdf translation
+    $ pip install deep-translator-v2[pdf]  # add support for pdf translation
 
-    $ pip install deep-translator[ai]   # add support for ChatGpt
-
-    $ poetry add deep-translator --extras "docx pdf ai"   # for poetry usage
+    $ poetry add deep-translator-v2 --extras "docx pdf"   # for poetry usage
 
 ============
 Quick Start
@@ -578,7 +577,9 @@ ChatGpt Translator
 
 .. note::
 
-    You need to install the openai support extra. `pip install deep-translator[ai]`
+    ChatGptTranslator is included in the standard installation.
+    It defaults to ``gpt-6-luna``. Pass ``model`` to select another
+    OpenAI model that supports Chat Completions.
 
 .. note::
 
@@ -726,37 +727,6 @@ BaiduTranslator
 
     translated = BaiduTranslator(appid="your-appid", appkey="your-appkey" source="en", target="zh").translate_file('path/to/file')
 
-BaiduTranslator
------------------
-
-.. note::
-
-    In order to use the BaiduTranslator translator, you need to generate a secret_id and a secret_key.
-    deep-translator supports both Pro and free APIs. Just check the examples below.
-    Visit http://api.fanyi.baidu.com/product/113 for more information on how to generate your Baidu appid
-    and appkey.
-
-- Simple translation
-
-.. code-block:: python
-
-    text = 'Hello world'
-    translated = BaiduTranslator(appid="your-appid", appkey="your-appkey" source="en", target="zh").translate(text)
-
-- Translate batch of texts
-
-.. code-block:: python
-
-    texts = ["Hello world", "How are you?"]
-    translated = BaiduTranslator(appid="your-appid", appkey="your-appkey" source="en", target="zh").translate_batch(texts)
-
-- Translate from a file:
-
-.. code-block:: python
-
-    translated = BaiduTranslator(appid="your-appid", appkey="your-appkey" source="en", target="zh").translate_file('path/to/file')
-
-
 Proxy usage
 -------------
 
@@ -780,19 +750,19 @@ File Translation
 --------------------
 
 Deep-translator (version >= 1.9.4) supports not only text file translation, but docx and PDF files too.
-However, you need to install deep-translator using the specific extras.
+However, you need to install deep-translator-v2 using the specific extras.
 
 For docx translation:
 
 .. code-block:: console
 
-    pip install deep-translator[docx]
+    pip install deep-translator-v2[docx]
 
 For PDF translation:
 
 .. code-block:: console
 
-    pip install deep-translator[pdf]
+    pip install deep-translator-v2[pdf]
 
 - Translate text from txt/docx/pdf:
 
@@ -887,7 +857,7 @@ Many thanks to @KirillSklyarenko for his work on integrating the microsoft trans
 License
 ==========
 
-MIT license
+Apache License 2.0
 
 Copyright (c) 2020-present, Nidhal Baccouri
 

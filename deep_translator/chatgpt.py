@@ -1,7 +1,9 @@
-__copyright__ = "Copyright (C) 2020 Nidhal Baccouri"
+__copyright__ = "Copyright (C) 2026 Exaland Concept "
 
 import os
 from typing import List, Optional
+
+import requests
 
 from deep_translator.base import BaseTranslator
 from deep_translator.constants import OPEN_AI_ENV_VAR
@@ -18,17 +20,20 @@ class ChatGptTranslator(BaseTranslator):
         self,
         source: str = "auto",
         target: str = "english",
-        api_key: Optional[str] = os.getenv(OPEN_AI_ENV_VAR, None),
-        model: Optional[str] = "gpt-3.5-turbo",
+        api_key: Optional[str] = None,
+        model: str = "gpt-6-luna",
         **kwargs,
     ):
         """
         @param api_key: your openai api key.
         @param source: source language
         @param target: target language
+        @param model: OpenAI model that supports Chat Completions
         """
+        if api_key is None:
+            api_key = os.getenv("OPENAI_API_KEY") or os.getenv(OPEN_AI_ENV_VAR)
         if not api_key:
-            raise ApiKeyException(env_var=OPEN_AI_ENV_VAR)
+            raise ApiKeyException(env_var="OPENAI_API_KEY")
 
         self.api_key = api_key
         self.model = model
@@ -40,24 +45,20 @@ class ChatGptTranslator(BaseTranslator):
         @param text: text to translate
         @return: translated text
         """
-        import openai
-
-        openai.api_key = self.api_key
-
         prompt = f"Translate the text below into {self.target}.\n"
         prompt += f'Text: "{text}"'
 
-        response = openai.ChatCompletion.create(
-            model=self.model,
-            messages=[
-                {
-                    "role": "user",
-                    "content": prompt,
-                }
-            ],
+        response = requests.post(
+            "https://api.openai.com/v1/chat/completions",
+            headers={"Authorization": f"Bearer {self.api_key}"},
+            json={
+                "model": self.model,
+                "messages": [{"role": "user", "content": prompt}],
+            },
+            timeout=60,
         )
-
-        return response.choices[0].message.content
+        response.raise_for_status()
+        return response.json()["choices"][0]["message"]["content"]
 
     def translate_file(self, path: str, **kwargs) -> str:
         return self._translate_file(path, **kwargs)
